@@ -1,0 +1,73 @@
+.projects-section {
+  padding: 5rem 2rem;
+  text-align: center;
+  color: #333;
+}
+
+.projects-section h2 {
+  font-size: 2.5rem;
+  color: #00ff00 !important;
+  margin-bottom: 2rem;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background: white;
+  border-radius: 15px;
+  width: 300px;
+  max-height: 500px; 
+  box-shadow: 0 8px 25px rgba(0, 255, 0, 0.5);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.project-content {
+  padding: 1rem;
+}
+
+.project-content h3 {
+  font-size: 1.3rem;
+  color: #1abc9c;
+  margin-bottom: 0.5rem;
+}
+
+.project-content p {
+  font-size: 1rem;
+  overflow-y: auto;
+  height: 150px;
+  color: black;
+}
+
+.deploy-btn {
+  display: inline-block;
+  margin-top: 10px;
+  background: linear-gradient(45deg, #00ff00, #00cc00);
+  color: #000;
+  padding: 0.5rem 1.2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.deploy-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 255, 0, 0.6);
+}
