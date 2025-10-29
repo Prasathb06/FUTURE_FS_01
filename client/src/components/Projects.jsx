@@ -15,13 +15,13 @@ const Projects = () => {
             title: "Fit_Factory",
             description: "Fit Factory is a fully responsive front-end fitness e-commerce website designed to promote and sell gym-related products. The platform provides users with an engaging interface to explore workout gear, supplements, and fitness accessories. The website emphasizes modern UI design, smooth navigation, and a professional shopping experience using only client-side technologies.",
             image: projectimg1,
-            deployLink: "https://fit-factory01.netlify.app/"
+            deployLink: "https://fit-factory0.netlify.app/"
         },
         {
             title: "Blog Platform",
             description: "Created a fitness education website for training programs and product sales.Used HTML, CSS, Bootstrap, and JavaScript to design a mobile-friendly, responsive UI.Optimized cross-device compatibility, ensuring 100% accessibility on mobile and desktop.Improved user engagement by developing a visually appealing and easy-to-navigate interface.",
             image: "",
-            deployLink: "https://your-lively-blog-link.com"
+            deployLink: "https://fitness-health-center.netlify.app/"
         }
     ];
 
