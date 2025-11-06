@@ -34,6 +34,7 @@
   font-weight: bold;
   color: #00ff00;
   margin-left: 20px;
+  padding: 5px;
 }
 
 .nav-links {
@@ -78,7 +79,8 @@
 
 .hero-content h1 {
   font-size: 3rem;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  !important;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif !important;
   margin-bottom: 1rem;
 }
 
@@ -103,10 +105,95 @@
 }
 
 /* Responsive for small screens */
-@media (max-width: 768px) {
+@media (max-width: 320px) {
+  .hero-content h1 {
+    font-size: 1.5rem !important;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif !important;
+     
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .navbar {
+    margin-top: 100px;
+     margin-bottom: 20%;
+  }
+  .nav-container {
+    width: 100%;
+  }
   .nav-toggle {
     display: block;
-    margin-left: 90px;
+    margin-right: 10% !important;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: rgba(0, 0, 0, 0.9);
+    flex-direction: column;
+    width: 200px;
+    display: none;
+    padding: 1rem;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+}
+@media (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 2rem;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif !important;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .navbar {
+    margin-top: 100px;
+    margin-bottom: 20%;
+  }
+  .nav-container {
+    width: 100%;
+  }
+  .nav-toggle {
+    display: block;
+    margin-right: 10% !important;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: rgba(0, 0, 0, 0.9);
+    flex-direction: column;
+    width: 200px;
+    display: none;
+    padding: 1rem;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    margin-top: 90px;
+    margin-bottom: 10%;
+  }
+  .nav-container {
+    width: 100%;
+  }
+  .nav-toggle {
+    display: block;
+    margin-right: 10% !important;
   }
 
   .nav-links {
