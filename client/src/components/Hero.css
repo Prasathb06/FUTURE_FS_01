@@ -110,7 +110,6 @@
     font-size: 1.5rem !important;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif !important;
-     
   }
 
   .hero-content p {
@@ -119,7 +118,7 @@
 
   .navbar {
     margin-top: 100px;
-     margin-bottom: 10%;
+    margin-bottom: 10%;
   }
   .nav-container {
     width: 100%;
@@ -149,16 +148,18 @@
     font-size: 2rem;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif !important;
-      margin-top: 60px !important;
+    margin-top: 60px !important;
   }
 
   .hero-content p {
     font-size: 1rem;
   }
 
+  .hero-content {
+    margin-bottom: 10px;
+  }
   .navbar {
-    margin-top: 100px;
-    margin-bottom: 20%;
+    margin-bottom: 15%;
   }
   .nav-container {
     width: 100%;
@@ -185,9 +186,11 @@
 }
 
 @media (max-width: 768px) {
+  .hero-content {
+    margin-bottom: 10px;
+  }
   .navbar {
-    margin-top: 90px;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
   }
   .nav-container {
     width: 100%;
