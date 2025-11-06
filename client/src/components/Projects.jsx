@@ -22,7 +22,7 @@ const Projects = () => {
             title: "Fitness & Health_Center",
             description: "The Fitness & Health Center is a responsive and visually appealing static website designed to promote a healthy lifestyle. It provides users with easy navigation to various sections such as Workout Plans, Diet Plans, Diet Foods, Cardio, Mobility, Yoga, and Store. The site uses pure HTML and CSS to create a structured layout with elegant typography, background images, and a motivational homepage banner.The project focuses on delivering a clean user interface, smooth navigation, and modern design aesthetics suitable for fitness enthusiasts and beginners alike.",
             image: projectimg2,
-            deployLink: "https://fitness-health-center.netlify.app/"
+            deployLink: "https://fitnesshealthcenter.netlify.app/"
         }
     ];
 
