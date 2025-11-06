@@ -17,7 +17,7 @@
   top: 0;
   left: 0;
   padding: 1rem 2rem;
-  margin-bottom: 150px;
+  margin-bottom: 130px;
   border-radius: 30px;
   background: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(5px);
@@ -117,8 +117,8 @@
   }
 
   .navbar {
-    margin-top: 100px;
-    margin-bottom: 10%;
+    /* margin-top: 100px; */
+    margin-bottom: 20%;
   }
   .nav-container {
     width: 100%;
@@ -190,7 +190,7 @@
     margin-bottom: 10px;
   }
   .navbar {
-    margin-bottom: 15%;
+    margin-bottom: 25% !important;
   }
   .nav-container {
     width: 100%;
